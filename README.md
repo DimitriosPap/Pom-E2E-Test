@@ -17,7 +17,7 @@ install html-reporter\
 &emsp;`npm install cucumber-html-reporter --save-dev`
 
 
-In browse.feature file, ***replace the x credentials in line 15*** with yours.
+In login.feature file, ***replace the x credentials in line 15*** with yours.
 
 run the test with command:\
 &emsp;`npm test`\

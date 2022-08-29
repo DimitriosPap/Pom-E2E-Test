@@ -22,31 +22,6 @@ BeforeAll(async function () {
     //console.log('BeforeAll');
 });
 
-/* Before(async function () {
-    //run before the first step of each scenario
-    //console.log('Before first step of scenario');
-});
-
-BeforeStep(async function () {
-    //run before a step
-    //console.log('BeforeStep');
-});
-
-BeforeStep({ tags: '@foo' }, async function () {
-    //console.log('BeforeStep');
-    // apply this hook to only specific scenarios
-});
-
-AfterStep(async function () {
-    //run after a step
-    //console.log('AfterStep');
-}); 
-
-After(async function (scenario) {
-    //run after the last step of each scenario
-    //console.log('After last step of scenario');
-});
-*/
 AfterAll(async function () {
     //run after all scenarios have been executed
     browser.close();
